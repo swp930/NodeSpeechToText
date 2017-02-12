@@ -42,7 +42,7 @@ da.segment.onpreprocess = function (trigger, args) {
 da.segment.onresume = function () {
     console.log('onresume');
     var synthesis = da.SpeechSynthesis.getInstance();
-    if(speechText == "hello")
+    if(speechText == "where am i")
     {
       speechText = "Potatoes";
     }
